@@ -13,7 +13,7 @@ This plugin generates a flattened version of your pom.xml and makes maven to ins
   <build>
     <plugins>
       <plugin>
-        <groupId>org.codehaus.mojo</groupId>
+        <groupId>org.jboss.fuse</groupId>
         <artifactId>flatten-maven-plugin</artifactId>
         <!--<version>INSERT LATEST VERSION HERE</version>-->
         <executions>

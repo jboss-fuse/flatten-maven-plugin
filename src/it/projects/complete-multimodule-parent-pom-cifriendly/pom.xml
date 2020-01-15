@@ -12,8 +12,8 @@
 		<defaultGoal>verify</defaultGoal>
 		<plugins>
 			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>flatten-maven-plugin</artifactId>
+				<groupId>org.jboss.fuse</groupId>
+                <artifactId>flatten-maven-plugin</artifactId>
 				<configuration>
 					<flattenMode>resolveCiFriendliesOnly</flattenMode>
 				</configuration>
